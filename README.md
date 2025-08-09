@@ -1,3 +1,13 @@
+# Screen Shots
+(No 1 UI)
+<img width="550" height="300" alt="Capture1" src="https://github.com/user-attachments/assets/c1fb49f2-4d50-492b-a72c-97cdfea51c0f" />
+
+(No 2 UI)
+<img width="550" height="300" alt="Capture2" src="https://github.com/user-attachments/assets/4d0a991a-40cc-4133-83d7-69b7f6862a2a" />
+
+(NO 3 UI)
+<img width="550" height="300" alt="Capture3" src="https://github.com/user-attachments/assets/70bcb57c-ffd5-4fbd-8f6e-a65ef175a8fd" />
+
 # DijkstraUI
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
