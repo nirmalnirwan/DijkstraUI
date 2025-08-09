@@ -16,6 +16,7 @@ export class DijkstraCalculatorComponent {
   fromNode = '';
   toNode = '';
   result: string = '';
+  isShowResult : boolean = false;
 
   // Example graph
   private edges: Edge[] = [
@@ -38,7 +39,7 @@ calculate() {
     }
 
     const distances = dijkstra(V, this.edges, fromIndex);
-
+    this.isShowResult = true;
     const distance = distances[toIndex];
     this.result =
       distance === Number.MAX_SAFE_INTEGER
@@ -50,5 +51,6 @@ calculate() {
     this.fromNode = '';
     this.toNode = '';
     this.result = '';
+    this.isShowResult = false;
   }  
 }
